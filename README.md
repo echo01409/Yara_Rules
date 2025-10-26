@@ -5,5 +5,5 @@ This repository contains Yara rules for malware samples.
 ## Yara rules for:
 
 * AsyncRAT
-* XWorm
+* Xworm
 * StealC
