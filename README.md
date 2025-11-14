@@ -7,3 +7,4 @@ This repository contains Yara rules for malware samples.
 * AsyncRAT
 * Xworm
 * StealC
+* ScoringMathTea RAT (Lazarus)
