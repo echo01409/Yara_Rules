@@ -1,11 +1,11 @@
 rule Lazarus_CipherVariant_DLL_Payloads
 {
     meta:
-        author = "Ben Hopkins
+        author = "Ben Hopkins"
         description = "Detects the specific Lazarus malware variant by combining the custom hex-encoded alphabet with multiple known encrypted DLL strings."
         date = "2025-11-13"
         sample = "c39ecc7d9f1e225a37304345731fffe72cdb95b21aeb06aa6022f6d338777012"
-        family = "Lazarus", "ScoringMathTea"
+        family = "ScoringMathTea"
         
     strings:
         $key_bytes = { 
